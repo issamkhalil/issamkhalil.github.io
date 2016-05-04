@@ -212,6 +212,26 @@ jQuery(function ($) {
                 closeEffect: 'none',
                 helpers: {
                     media: {}
+                },
+
+                beforeShow: function () {
+                    this.title = $(this.element).attr('title');
+
+                    var imgst= $(this.element).parent().find('img').attr("data-icons").split(' ');
+                    imgst[0]= "<img src='include/icons/"+imgst[0]+"' class='technilogie' alt=''>";
+                    var imgs=imgst.reduce(function(a,b){
+                        return a+ "<img src='include/icons/"+b+"' class='technilogie' alt=''>";
+                    });
+                    this.title ="<div class='technos media' style='position: absolute; width: 100%; height: 50px; background: rgba(155,155,155,0.5); overflow: hidden' > "+
+                        "<div class='title'>Outils et Langages :</div>"+
+                        "<span>"+
+                        imgs
+                        +"</span>" +
+                        "</div>"
+                        +'<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>';
+
+                    //TODO: recupérer data:
+
                 }
 
             });
