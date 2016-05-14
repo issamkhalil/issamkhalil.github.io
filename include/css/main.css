@@ -3,6 +3,21 @@
    Basic Styles
 ================================================== */
 
+@font-face {
+	font-family: "Good Font";
+	src: url('fonts/neuropol.ttf');
+}
+
+.logo{
+	display: inline-block;
+	padding: 15px 20px;
+}
+.title-me{
+	transition: .8s;
+	font-family: "Good Font", Helvetica, Arial, sans-serif;
+	color: #ddd;
+}
+
 html, body {
 	height: 100%;
 }
@@ -1425,5 +1440,9 @@ small.team{
 		right: 100%;
 	}
 }
+
+
+
+
 
 

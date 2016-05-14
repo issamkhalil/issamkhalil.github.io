@@ -79,25 +79,22 @@ jQuery(function ($) {
             slides: [			// Slideshow Images
                 {
                     image: 'include/img/slider-images/image01.jpg',
-                    title: '<div class="slide-content">Brushed</div>',
+                    title: '<div class="slide-content title-me">Code is My passion</div>',
                     thumb: '',
                     url: ''
                 },
                 {
                     image: 'include/img/slider-images/image02.jpg',
-                    title: '<div class="slide-content">Brushed</div>',
                     thumb: '',
                     url: ''
                 },
                 {
                     image: 'include/img/slider-images/image03.jpg',
-                    title: '<div class="slide-content">Brushed</div>',
                     thumb: '',
                     url: ''
                 },
                 {
                     image: 'include/img/slider-images/image04.jpg',
-                    title: '<div class="slide-content">Brushed</div>',
                     thumb: '',
                     url: ''
                 }
@@ -502,7 +499,7 @@ jQuery(function ($) {
         BRUSHED.scrollToTop();
         BRUSHED.utils();
         BRUSHED.accordion();
-        BRUSHED.toggle();
+        $BRUSHED.toggle();
         BRUSHED.toolTip();
     });
 
@@ -510,4 +507,7 @@ jQuery(function ($) {
         BRUSHED.mobileNav();
     });
 
+
+    // Initialize WOW.js Scrolling Animations
+    new WOW().init();
 });
