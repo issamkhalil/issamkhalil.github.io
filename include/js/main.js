@@ -194,10 +194,8 @@ jQuery(function ($) {
                             imgs
                         +"</span>" +
                         "</div>"
-                        +'<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>';
-
-                    //TODO: recupérer data:
-
+                        +'<h4>' + this.title + '</h4>' +
+                        "<p style='white-space:normal;width:450px;'>" + $(this.element).parent().find('img').attr('alt') + '</p>';
                 },
                 helpers: {
                     title: {type: 'inside'},
