@@ -84,17 +84,17 @@ jQuery(function ($) {
                     url: ''
                 },
                 {
-                    image: 'include/img/slider-images/image05.jpg',
+                    image: 'include/img/slider-images/image02.jpg',
                     thumb: '',
                     url: ''
                 },
                 {
-                    image: 'include/img/slider-images/image06.jpg',
+                    image: 'include/img/slider-images/image03.jpg',
                     thumb: '',
                     url: ''
                 },
                 {
-                    image: 'include/img/slider-images/image07.jpg',
+                    image: 'include/img/slider-images/image04.jpg',
                     thumb: '',
                     url: ''
                 }
