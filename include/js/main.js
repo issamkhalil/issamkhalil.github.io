@@ -79,7 +79,7 @@ jQuery(function ($) {
             slides: [			// Slideshow Images
                 {
                     image: 'include/img/slider-images/image01.jpg',
-                    title: '<div class="slide-content title-me">Code is My passion</div>',
+               //     title: '<div class="slide-content title-me">Code is My passion</div>',
                     thumb: '',
                     url: ''
                 },
