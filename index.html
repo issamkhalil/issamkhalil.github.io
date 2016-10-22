@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MaterialX - Material Design Personal Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection"/>
+
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection"/>
+    <link rel="stylesheet" href="assets/css/devicons.min.css" media="screen"/>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Choose your default colors -->
+    <link rel="stylesheet" href="assets/css/colors/color1.css">
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader">
+        <svg class="circle-loader" height="50" width="50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10"/>
+        </svg>
+    </div>
+</div><!--preloader end-->
+
+<!-- Main Container -->
+<main id="app" class="main-section">
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec white nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nav-inner">
+                        <nav class="primary-nav">
+                            <div class="clearfix nav-wrapper">
+                                <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img
+                                        src="images/logo.png" alt="">
+                                </a>
+                                <a href="#" data-activates="mobile-demo" class="button-collapse"><i
+                                        class="mdi-navigation-menu"></i></a>
+                                <ul class="right static-menu">
+                                    <li class="search-form-li">
+                                        <a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
+                                        <div class="search-form-wrap hide">
+                                            <form action="#" class="">
+                                                <input type="search" class="search">
+                                                <button type="submit"><i class="mdi-action-search"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-button blog-submenu-init" href="#!"
+                                           data-activates="dropdown1">
+                                            <i class="mdi-navigation-more-vert right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="inline-menu side-nav" id="mobile-demo">
+
+                                    <!-- Mini Profile // only visible in Tab and Mobile -->
+                                    <li class="mobile-profile">
+                                        <div class="profile-inner">
+                                            <div class="pp-container">
+                                                <img src="images/person.png" alt="">
+                                            </div>
+                                            <h3>KHALIL Issam</h3>
+                                            <h5>Software engineering student</h5>
+                                        </div>
+                                    </li><!-- mini profile end-->
+
+
+                                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i
+                                            class="fa fa-user fa-fw"></i>About Me</a>
+                                    </li>
+                                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i
+                                            class="fa fa-file-text fa-fw"></i>Resume</a>
+                                    </li>
+                                    <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i
+                                            class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                                    </li>
+                                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i
+                                            class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                                    </li>
+                                </ul>
+                                <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                                    <li>Home</li>
+                                    <li><a href="blog.html">All Blog</a>
+                                    </li>
+                                    <li><a href="blog-with-sidebar.html">Blog with Sidebar</a>
+                                    </li>
+                                    <li><a href="single.html">Single Blog</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
+
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap" style="position: relative">
+        <div id="slider" style="position: absolute; width: 100%; height: 100%;" class="nivoSlider">
+            <img src="images/image01.jpg" data-thumb="images/image01.jpg" style=" width: 100%; height: 100%;" alt="">
+            <img src="images/image02.jpg" data-thumb="images/image02.jpg" style=" width: 100%; height: 100%;" alt="">
+            <img src="images/fun-facts-bg.jpg" data-thumb="images/fun-facts-bg.jpg" style=" width: 100%; height: 100%;"
+                 alt="">
+            <img src="images/IMG_2443.JPG" data-thumb="images/IMG_2443.JPG" style=" width: 100%; height: 100%;" alt="">
+        </div>
+
+        <div class="sec-overlay" style="z-index: 999999999999; position: relative; width: 100%; height: 100%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="home-inner">
+                            <div class="center-align home-content">
+                                <h1 class="home-title">HI! I'm <span>KHALIL Issam</span></h1>
+                                <h2 class="home-subtitle">software engineering student</h2>
+                                <a href="#contact"
+                                   class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Contact
+                                    me <i class="mdi-content-send left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .container end -->
+            <div class="section-call-to-area">
+                <div class="container">
+                    <div class="row">
+                        <a href="#about"
+                           class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden"
+                           data-section="#about">
+                            <i class="mdi-navigation-expand-more"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- .container end -->
+            </div>
+        </div>
+    </section>
+    <!-- #home Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="clearfix about-inner">
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="person-about">
+                            <h3 class="about-subtitle">ABOUT ME</h3>
+                            <p>I am a software engineering student, I'm always seeking for projects, challenges to work
+                                on them, from the designing to the maintaining phase. My two favorite languages are JAVA
+                                and Javascript. </p>
+                            <a class="waves-effect waves-light btn-large brand-bg white-text"><i
+                                    class="mdi-content-archive left"></i> Download Resume</a>
+                        </div>
+                    </div>
+                    <!-- about me description -->
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="person-img wow fadeIn">
+                            <img class="z-depth-1" src="images/me.jpg" height="300" alt="">
+                        </div>
+                    </div>
+                    <!-- about me image -->
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="person-info">
+                            <h3 class="about-subtitle">Personal Information</h3>
+                            <h5><span>Name :</span> KHALIL Issam</h5>
+                            <h5><span>Age :</span> 23 Years</h5>
+                            <h5><span>Phone :</span> 0621 947 838</h5>
+                            <h5><span>Email :</span> issam.khalil11@gmail.com</h5>
+                            <h5><span>Address :</span>90, Boulevard d'El Hank</h5>
+                        </div>
+
+                        <div class="about-social">
+                            <ul>
+                                <li>
+                                    <a href="#" class="btn-floating waves-effect waves-light white"><i
+                                            class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-floating waves-effect waves-light white"><i
+                                            class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-floating waves-effect waves-light white"><i
+                                            class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-floating waves-effect waves-light white"><i
+                                            class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-floating waves-effect waves-light white"><i
+                                            class="fa fa-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- about me info -->
+
+                </div>
+            </div>
+        </div>
+        <!-- .container end -->
+    </section>
+    <!-- #about Section end -->
+
+    <!-- Resume Section start -->
+    <section id="resume" class="scroll-section ">
+        <section id="skill" class="root-sec white skill-wrap">
+            <div class="sec-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="clearfix skill-inner">
+                            <div class="col-sm-12 col-md-3">
+                                <div class="skill-left">
+                                    <h2 class="title">Skills</h2>
+                                    <p class="regular-text">
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- skills container -->
+                            <div class="col-sm-12 col-md-6 col-md-offset-1">
+                                <div class="skill-right">
+                                    <div id="skillSlider" class="clearfix skill-graph">
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="100%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">JAVA/JEE</span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="96%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">JavaScript/NodeJS </span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="70%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">PHP</span>
+                                                            <div class="hr-wrap">
+
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--<span class="skill-count">Spring</span>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="60%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">.NET</span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--                          <span class="skill-count">65%</span>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="90%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">UML</span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="100%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">Design Patterns</span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="100%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">Distributed Systems</span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /single skill-->
+
+                                        <!-- single skill -->
+                                        <div class="single-skill">
+                                            <div class="after-li">
+                                                <div class="singel-hr">
+                                                    <div class="singel-hr-inner" data-height="85%">
+                                                        <div class="skill-visiable">
+                                                            <span class="skill-title">Mobile Applications</span>
+                                                            <div class="hr-wrap">
+                                                                <div class="hrc"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- single skill -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /skills container -->
+                        </div>
+                    </div>
+                    <div class="btn-wrapp skl-ctrl">
+                        <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i
+                                class="mdi-navigation-chevron-left "></i></a>
+                        <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i
+                                class="mdi-navigation-chevron-right "></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- .container end -->
+        </section>
+
+        <section id="education" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="education-inner">
+                        <div class="col-sm-12 col-md-10 card-box-wrap">
+                            <div class="row">
+                                <div class="clearfix section-head education-text">
+                                    <div class="col-sm-12">
+                                        <h2 class="title">education</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="overflow-hidden">
+                                        <div class="row">
+                                            <div id="educationSlider" class="clearfix card-element-wrapper">
+
+                                                <!-- single education -->
+                                                <div class="col-sm-4 single-card-box wow fadeInUpSmall"
+                                                     data-wow-duration=".7s">
+                                                    <div class="card">
+                                                        <div class="card-image waves-effect waves-block waves-light">
+                                                            <h2 class="left-align card-title-top">2014 - 2017</h2>
+                                                            <div class="card-img-wrap">
+                                                                <img class="activator" src="images/ing.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <span class="card-title activator brand-text">Ingenieur d'état en GLSID<i
+                                                                    class="mdi-navigation-more-vert right"></i></span>
+                                                            <p>ENSET Mohammedia</p>
+                                                        </div>
+                                                        <!-- Reveal content-->
+                                                        <div class="card-reveal">
+                                                            <div class="rev-title-wrap">
+                                                                <span class="card-title activator brand-text">Ingenieur d'état en GLSID<i
+                                                                        class="mdi-navigation-close right"></i></span>
+                                                                <p>ENSET Mohammedia</p>
+                                                            </div>
+                                                            <p class="rev-content">
+                                                                Eleve ingenieur en Génie Logiciel et des Systémes
+                                                                informatiques Distribués(GLSID) <br/>
+                                                                à l'Ecole Normale Supétieur de l'Enseignement Technique(<strong>ENSET</strong>),
+                                                                Université Hassan II casablanca
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- single education end -->
+
+                                                <div class="col-sm-4 single-card-box">
+                                                    <div class="card">
+                                                        <div class="card-image waves-effect waves-block waves-light">
+                                                            <h2 class="left-align card-title-top">2016</h2>
+                                                            <div class="card-img-wrap">
+                                                                <img class="activator" src="images/bac.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <span class="card-title activator brand-text">Front End Devlopment Certification<i
+                                                                    class="mdi-navigation-more-vert right"></i></span>
+                                                            <p>FreeCodeCamp</p>
+                                                        </div>
+                                                        <div class="card-reveal">
+                                                            <div class="rev-title-wrap">
+                                                                <span class="card-title activator brand-text">Front End Devlopment Certification<i
+                                                                        class="mdi-navigation-close right"></i></span>
+                                                                <p>FreeCodeCamp</p>
+                                                            </div>
+                                                            <p class="rev-content">
+                                                                FreeCodeCamp's Front End Devlopment Certification
+                                                                Program <br/>
+                                                            <p style="text-align: right;">
+                                                                <a href="#" class="btn">Link</a>
+                                                            </p>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- single education -->
+
+
+                                                <!-- single education -->
+                                                <div class="col-sm-4 single-card-box wow fadeInUpSmall"
+                                                     data-wow-delay=".2s" data-wow-duration=".7s">
+                                                    <div class="card">
+                                                        <div class="card-image waves-effect waves-block waves-light">
+                                                            <h2 class="left-align card-title-top">2011 - 2014</h2>
+                                                            <div class="card-img-wrap">
+                                                                <img class="activator" src="images/lic.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-content">
+                                                            <span class="card-title activator brand-text">Licence SMI<i
+                                                                    class="mdi-navigation-more-vert right"></i></span>
+                                                            <p>Université Hassan II casablanca</p>
+                                                        </div>
+                                                        <div class="card-reveal">
+                                                            <div class="rev-title-wrap">
+                                                                <span class="card-title activator brand-text">Licence SMI<i
+                                                                        class="mdi-navigation-close right"></i></span>
+                                                                <p>Université Hassan II casablanca</p>
+                                                            </div>
+                                                            <p class="rev-content">
+                                                                Lisence Fendamentale Sciences Mathématique et
+                                                                Informatique (<strong>SMI</strong>)
+                                                                <br/>
+                                                                Faculté des sciences Ain Chock, Université Hassan II
+                                                                casablanca
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- single education -->
+
+                                                <!-- single education -->
+                                                <div class="col-sm-4 single-card-box wow fadeInUpSmall"
+                                                     data-wow-delay=".4s" data-wow-duration=".7s">
+                                                    <div class="card">
+                                                        <div class="card-image waves-effect waves-block waves-light">
+                                                            <h2 class="left-align card-title-top">2010 - 2011</h2>
+                                                            <div class="card-img-wrap">
+                                                                <img class="activator" src="images/bac.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-content">
+                                <span class="card-title activator brand-text">
+                                  Baccalauréat SVT<i class="mdi-navigation-more-vert right"></i></span>
+                                                            <p>Lycée El Masjid, Casablanca</p>
+                                                        </div>
+                                                        <div class="card-reveal">
+                                                            <div class="rev-title-wrap">
+                                                                <span class="card-title activator brand-text">Baccalauréat SVT<i
+                                                                        class="mdi-navigation-close right"></i></span>
+                                                                <p>Lycée El Masjid, Casablanca</p>
+                                                            </div>
+                                                            <p class="rev-content">
+                                                                Baccalauréat Sciences expérimentales option SVT <br/>
+                                                                Lycée El Masjid, Casablanca
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div> <!-- single education -->
+
+                                                <!-- single education -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-wrapp edu-ctrl">
+                            <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-left"><i
+                                    class="mdi-navigation-chevron-left"></i></a>
+                            <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-right"><i
+                                    class="mdi-navigation-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- #resume Section end -->
+
+    <!-- Portfolio Section start -->
+    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
+        <div class="padd-tb-120 brand-bg portfolio-top">
+            <div class="portfolio-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="title">PORTFOLIO</h2>
+                            <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
+                                <li class="active"><a href="#" data-target="*">All</a>
+                                </li>
+                                <li><a href="#" data-target=".category-1">Art</a>
+                                </li>
+                                <li><a href="#" data-target=".category-2">Accessories</a>
+                                </li>
+                                <li><a href="#" data-target=".category-3">Design</a>
+                                </li>
+                                <li><a href="#" data-target=".category-4">Fashion</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .container end -->
+        </div>
+
+        <div class="portfolio-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="clearfix protfolio-item" id="protfolio-msnry">
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/rr.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Recharge Rapide</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Application mobile permet d'effectuer les recharges
+                                                    téléphonique plus rapidement et plus facilement.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/hackathon2.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">hackathon Evolution mobile</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Application Mobile dans le cadre du hackathon Evolution mobile </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/tree.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">algorithmes sur les arbres</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Application de teste des algorithmes
+                                                    sur les arbres: AVL, Rouge noire, et 2-3-4.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-1 category-3">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-image-source="http://placehold.it/650x350"
+                                   data-demo-link="#"> <!-- Portfolio pop-up content-->
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/pfe-smi.png" alt="portfolio">
+                                        <!-- portfolio thumbnail-->
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">PFE Licence</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Platforme E-learning avec Visio conférence </p>
+
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/baytte.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Baytte.com</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Site Web Baytte alfan </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/issafarn1.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Issafarne.ma </h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">Site Web de l'association
+                                                    issafarne version 1</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/issafarn2.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Issafarne.ma </h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Site Web de l'association issafarne version 2</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/tictactoe.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">TicTacToe </h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Le jeux TicTacToe avec JavaScript</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/timer.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Pomodoro Timer </h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Pomodoro Timer avec JavaScript</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/twitchtv.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Twitchtv</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Affichage des chaînes qui sont online sur Twitchtv</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/simon.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Simon</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Le Jeux Simon avec Javascript</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/hackathon1.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">hackathon ENAPPChalange</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Application Mobile dans le cadre du hackathon ENAPPChalangee
+                                                    d'ENACTUS </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-1 category-2">
+                                <a class="portfolioModal-img waves-effect waves-block waves-light"
+                                   data-demo-link="#">
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/huffman.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Compreseur Huffman</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Application desktop de compression des fichiers txt, selon
+                                                    l'algorithme Huffman</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- #portfolio Section end -->
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec brand-bg padd-tb-120 contact-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="contact-inner">
+                    <div class="col-sm-12 card-box-wrap">
+                        <div class="row">
+                            <div class="clearfix section-head contact-text">
+                                <div class="col-sm-12">
+                                    <h2 class="title">Contact</h2>
+                                </div>
+                            </div> <!-- contact text end -->
+                            <!-- End Title Page -->
+                            <div class="row"  style="margin-top: 20px">
+                                <div class="col-md-4 col-md-offset-2" style="text-align: center;">
+                                    <i class="fa fa-phone fa-3x wow bounceIn"
+                                       style="visibility: visible; animation-name: bounceIn;"></i>
+                                    <p>+212 0621 948 738</p>
+                                </div>
+                                <div class="col-md-4" style="text-align: center;">
+                                    <a href="mailto:your-email@your-domain.com"
+                                       style="display: block; color: whitesmoke;"><i
+                                            class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"
+                                            style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                        <p>issam.khalil11@gmail.com</p></a>
+                                </div>
+                            </div>
+                            <div class="row"  style="margin-top: 20px">
+                                <div class="col-md-4 col-md-offset-2" style="text-align: center;">
+                                    <a href="https://facebook.com/issam.khalil.777"
+                                       style="display: block; color: whitesmoke;"> <i
+                                            class="fa fa-facebook fa-3x wow bounceIn"
+                                            style="visibility: visible; animation-name: bounceIn;"></i>
+                                        <p>facebook</p></a>
+                                </div>
+                                <div class="col-md-4" style="text-align: center;">
+                                    <a href="https://ma.linkedin.com/in/issam-khalil-740782112"
+                                       style="display: block; color: whitesmoke;"><i
+                                            class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"
+                                            style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                        <p>LinkedIn</p></a>
+                                </div>
+                            </div >
+                            <div class="row" style="margin-top: 20px">
+                                <div class="col-md-4 col-md-offset-2" style="text-align: center;">
+                                    <a href="https://github.com/issamkhalil" style="display: block; color: whitesmoke;">
+                                        <i class="fa fa-github fa-3x wow bounceIn"
+                                           style="visibility: visible; animation-name: bounceIn;"></i>
+                                        <p>github</p></a>
+                                </div>
+                                <div class="col-md-4" style="text-align: center;">
+                                    <a href="https://www.youtube.com/channel/UCRAI51f7UPmEuGxR_s8rI3A"
+                                       style="display: block; color: whitesmoke;">
+                                        <i class="fa fa-youtube fa-3x wow bounceIn" data-wow-delay=".1s"
+                                           style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                        <p>Youtube
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row"  style="margin-top: 20px">
+                                <div class="col-md-4 col-md-offset-4" style="text-align: center;">
+                                    <a href="http://www.freecodecamp.com/issamkhalil"
+                                       style="display: block; color: whitesmoke;">
+                                        <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"
+                                           style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                        <p>Twitter</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- ./container end -->
+        <div class="section-call-to-area">
+            <div class="container">
+                <div class="row">
+                    <a href="#home"
+                       class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden"
+                       data-section="#home">
+                        <i class="mdi-navigation-expand-less"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- #contact Section end -->
+
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="clearfix footer-inner">
+                        <ul class="left social-icons">
+                            <li><a href="#" class="tooltips tooltipped facebook" data-position="top" data-delay="50"
+                                   data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#" class="tooltips tooltipped linkedin" data-position="top" data-delay="50"
+                                   data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50"
+                                   data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#" class="tooltips tooltipped google-plus" data-position="top" data-delay="50"
+                                   data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li><a href="#" class="tooltips tooltipped github" data-position="top" data-delay="50"
+                                   data-tooltip="GitHub"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="#" class="tooltips tooltipped codepen" data-position="top" data-delay="50"
+                                   data-tooltip="Codepen"><i class="fa fa-codepen"></i></a>
+                            </li>
+                        </ul> <!-- ./social icons end -->
+                        <div class="right copyright">
+                            <p>KHALIL Issam &copy; All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
+
+</main>
+<!-- Main Container end-->
+
+
+<!-- JavaScripts -->
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.nivo.slider.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/detectmobilebrowser.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="assets/js/gmaps.js"></script>
+<script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/libs/materialize/js/materialize.min.js"></script>
+<script src="assets/libs/jwplayer/jwplayer.js"></script>
+<script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/skils-modal.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider();
+    });
+</script>
+
+</body>
+
+</html>
