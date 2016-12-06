@@ -9,6 +9,7 @@
 <html class="no-js" xmlns="http://www.w3.org/1999/html">
 <!--<![endif]-->
 
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -92,7 +93,8 @@
                                     <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i
                                             class="fa fa-briefcase fa-fw"></i>Portfolio</a>
                                     </li>
-                                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i
+                                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll">
+                                        <i
                                             class="fa fa-paper-plane fa-fw"></i>Contact</a>
                                     </li>
                                 </ul>
@@ -138,6 +140,10 @@
                                    class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Contact
                                     me <i class="mdi-content-send left"></i>
                                 </a>
+                                <a href="cv/cv_KHALIL_Issam.pdf" target="_blank"
+                                   class="btn waves-effect waves-light btn-large brand-bg white-text regular-text">
+                                    My Resume <i class="mdi-content-archive left"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -172,7 +178,8 @@
                             <p>I am a software engineering student, I'm always seeking for projects, challenges to work
                                 on them, from the designing to the maintaining phase. My two favorite languages are JAVA
                                 and Javascript. </p>
-                            <a class="waves-effect waves-light btn-large brand-bg white-text"  href="cv/cv_KHALIL_Issam.pdf" target="_blank"><i
+                            <a class="waves-effect waves-light btn-large brand-bg white-text"
+                               href="cv/cv_KHALIL_Issam.pdf" target="_blank"><i
                                     class="mdi-content-archive left"></i> CV</a>
                         </div>
                     </div>
@@ -592,10 +599,48 @@
         </div>
 
         <div class="portfolio-bottom">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
                         <ul class="clearfix protfolio-item" id="protfolio-msnry">
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-web category-mobile category-desktop">
+                                <a class="portfolioModal-vid waves-effect waves-block waves-light"
+                                   data-vid="https://www.youtube.com/embed/6kJP4u4iymw">
+                                    <div class="pf-modal-content">
+                                        <p>
+                                           Ged-in.ma est une solution de stockage et de
+                                            partage sécurisé de fichiers sa version actuel est v 0.6.
+                                        </p>
+                                        <p>
+                                            le But de mon stage "Stage d'ingénieur"
+                                            est de concevoir la version 1.0 de cette application.
+                                            La nouvelle solution se compose de:
+                                        </p>
+                                        <ul>
+                                            <li><strong>webservice restfull: </strong> basé sur PHP7, cakePhp3, et MySQL.</li>
+                                            <li><strong>Application Web: </strong> basé sur NodeJS, Express, AngularJS, et material design.</li>
+                                            <li><strong>Application mobile: </strong> basé sur IONIC.</li>
+                                            <li><strong>Application Mobile: </strong> basé sur Java, et JavaFX.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/ged-in.gif" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Stage Ingénieur</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Solution de partage et d'échange sécurisé des fichiers dans le Cloud
+                                                    ged-in.ma
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
                             <!--/ single portfolio -->
                             <li class="single-port-item category-mobile">
                                 <a class="portfolioModal-vid waves-effect waves-block waves-light"
@@ -631,11 +676,10 @@
                             <!--/ single portfolio -->
                             <li class="single-port-item category-mobile">
                                 <a class="portfolioModal-img waves-effect waves-block waves-light"
-                                   data-demo-link="#"
-                                   data-image-source="images/work/full/hackathon2.gif" >
+                                   data-image-source="images/work/full/hackathon2.gif">
                                     <div class="pf-modal-content">
                                         <p>
-                                            Application mobile et desktop de gestion des evenments organiser par
+                                            Application mobile et Web de gestion des evenments organiser par
                                             SIDEvents.
                                         </p>
                                         <p>
@@ -729,15 +773,18 @@
                                    data-demo-link="#"> <!-- Portfolio pop-up content-->
                                     <div class="pf-modal-content">
                                         <p>
-                                           Application de maximisation des avion affectés aux parckings accostés
+                                            Application de maximisation des avion affectés aux parckings accostés
                                         </p>
                                         <p>
-                                            Langages et Outils: <strong> Java/JEE, SpringBoot, SpringMvc, Springdata/jpa/Hibernate
-                                            SpringSecurity, LibrarieChoco, JavaScript ES 2015,
-                                            JQyery, ChartJS,BootStrap,
-
-                                        </strong>
+                                        <ul>
+                                            <li><strong>Langages:</strong> Java, HTML5, CSS3, JS</li>
+                                            <li><strong>Frameworks:</strong> SpringBoot, Hibernate/JPA/SpringDATA,
+                                                Maven, SpringMVC, SpringSecurity, ChocoLibrary, ChartJS.
+                                            </li>
+                                            <li><strong>Outils:</strong>Intelij Idea</li>
+                                        </ul>
                                         </p>
+
                                     </div>
                                     <div class="protfolio-image">
                                         <img src="images/work/thumbs/onda.png" alt="portfolio">
@@ -756,6 +803,46 @@
                                 </a>
                             </li>
 
+
+                            <!--/ single portfolio -->
+                            <li class="single-port-item category-desktop">
+                                <a class="portfolioModal-vid waves-effect waves-block waves-light"
+                                   data-vid="https://www.youtube.com/embed/hm4mpTWgV8">
+                                    <div class="pf-modal-content">
+                                        <p class="white-text" style="font-size: 14px;">
+                                            Application de Gestion de gestion du stock en java/JEE KHALIL Issam &
+                                            ELMOTAKI Abdelilah</p>
+                                        <p>
+                                        <ul>
+                                            <li><strong>Langages: </strong> Java, HTML5, CSS3, JS</li>
+                                            <li><strong>Frameworks: </strong> SpringIOC, Hibernate/JPA, Maven
+                                                Struts2, MigLayout, Java Swing.
+                                            </li>
+                                            <li><strong>Outils: </strong>Intelij Idea</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/posenset.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">Application de Gestion de gestion du stock</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Application de Gestion de gestion du stock en java/JEE KHALIL Issam
+                                                    & ELMOTAKI Abdelilah</p>
+
+                                                <p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--/ single portfolio -->
+
+
                             <!-- Single Portfolio-->
                             <li class="single-port-item category-web">
                                 <a class="portfolioModal-vid waves-effect waves-block waves-light"
@@ -770,6 +857,9 @@
                                             WordPress.
                                         </strong>
                                         </p>
+                                        <p>
+                                            <b>Lien de site: <a href="http://www.baytte.com/">http://www.baytte.com/</a></b>
+                                        </p>
                                     </div>
                                     <div class="protfolio-image">
                                         <img src="images/work/thumbs/baytte.png" alt="portfolio">
@@ -779,6 +869,138 @@
                                                 <hr style="border: none; height: 1px; background: #fefefe;">
                                                 <p class="white-text" style="font-size: 14px;">
                                                     Site Web Baytte alfan </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-web">
+                                <a class="portfolioModal-vid waves-effect waves-block waves-light"
+                                   data-vid="http://rose66.org"
+                                   data-demo-link="#">
+                                    <div class="pf-modal-content">
+                                        <p>
+                                            Création de site web rose66.org
+                                        </p>
+                                        <p>
+                                            Langages et Outils: <strong>WordPress, Html5, Css3,
+                                            , JavaScript, jQuery, Nivo.js.
+                                        </strong>
+                                        </p>
+                                        <p>
+                                            <b>Lien de site: http://rose66.org </b>
+                                        </p>
+                                    </div>
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/rose66.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">rose66.org</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Site Web rose66.org </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-web">
+                                <a class="portfolioModal-vid waves-effect waves-block waves-light"
+                                   data-vid="http://akp.ma"
+                                   data-demo-link="#">
+                                    <div class="pf-modal-content">
+                                        <p>
+                                            Création de site web Africa Key Partners
+                                        </p>
+                                        <p>
+                                            Langages et Outils: <strong>WordPress, Html5, Css3,
+                                            , JavaScript, jQuery.
+                                        </strong>
+                                        </p>
+                                        <p>
+                                            <b>Lien de site: <a href="http://akp.ma">http://akp.ma</a></b>
+                                        </p>
+                                    </div>
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/akp.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">akp.ma</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Site Web Africa Key Partners </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-web">
+                                <a class="portfolioModal-vid waves-effect waves-block waves-light"
+                                   data-vid="http://mamansbebes.com"
+                                   data-demo-link="#">
+                                    <div class="pf-modal-content">
+                                        <p>
+                                            Création de site web Mamansbébés
+                                        </p>
+                                        <p>
+                                            Langages et Outils: <strong>WordPress, Html5, Css3,
+                                            , JavaScript, jQuery.
+                                        </strong>
+                                        </p>
+                                        <p>
+                                            <b>Lien de site: <a href="http://mamansbebes.com">http://mamansbebes.com</a></b>
+                                        </p>
+                                    </div>
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/mb.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">mamansbebes.ma</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Site Web Mamans et bébés</p>
+                                            </div>
+                                        </div>
+                                        <div class="p-overlay"></div>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                            <!-- Single Portfolio-->
+                            <li class="single-port-item category-web">
+                                <a class="portfolioModal-vid waves-effect waves-block waves-light"
+                                   data-vid="http://fatiha-akef.ma"
+                                   data-demo-link="#">
+                                    <div class="pf-modal-content">
+                                        <p>
+                                            Création de site web akef-fatihama </p>
+                                        <p>
+                                            Langages et Outils: <strong>WordPress, Html5, Css3,
+                                            , JavaScript, jQuery.
+                                        </strong>
+                                        </p>
+                                        <p>
+                                            <b>Lien de site: <strong>http://fatiha-akef.ma</strong> </b>
+                                        </p>
+                                    </div>
+                                    <div class="protfolio-image">
+                                        <img src="images/work/thumbs/af.png" alt="portfolio">
+                                        <div class="protfolio-content waves-effect waves-block waves-light">
+                                            <div class="protfolio-content__inner">
+                                                <h2 class="p-title">fatiha-akef.ma</h2>
+                                                <hr style="border: none; height: 1px; background: #fefefe;">
+                                                <p class="white-text" style="font-size: 14px;">
+                                                    Site Web fatiha-akef.ma</p>
                                             </div>
                                         </div>
                                         <div class="p-overlay"></div>
@@ -893,33 +1115,6 @@
                                                 <hr style="border: none; height: 1px; background: #fefefe;">
                                                 <p class="white-text" style="font-size: 14px;">
                                                     Pomodoro Timer avec JavaScript</p>
-                                            </div>
-                                        </div>
-                                        <div class="p-overlay"></div>
-                                    </div>
-                                </a>
-                            </li>
-                            <!--/ single portfolio -->
-                            <li class="single-port-item category-web">
-                                <a class="portfolioModal-img waves-effect waves-block waves-light"
-                                   data-demo-link="#">
-
-                                    <div class="pf-modal-content">
-                                        <p>
-                                            Affichage des chaînes qui sont online sur Twitchtv
-                                        <p>
-                                            Langages et Outils: <strong>Html5, Css3, JavaScript, AngularJS.
-                                        </strong>
-                                        </p>
-                                    </div>
-                                    <div class="protfolio-image">
-                                        <img src="images/work/thumbs/twitchtv.png" alt="portfolio">
-                                        <div class="protfolio-content waves-effect waves-block waves-light">
-                                            <div class="protfolio-content__inner">
-                                                <h2 class="p-title">Twitchtv</h2>
-                                                <hr style="border: none; height: 1px; background: #fefefe;">
-                                                <p class="white-text" style="font-size: 14px;">
-                                                    Affichage des chaînes qui sont online sur Twitchtv</p>
                                             </div>
                                         </div>
                                         <div class="p-overlay"></div>
@@ -1049,7 +1244,7 @@
                                         <p>facebook</p></a>
                                 </div>
                                 <div class="col-md-4" style="text-align: center;">
-                                    <a href="https://ma.linkedin.com/in/issam-khalil-740782112"
+                                    <a href="https://ma.linkedin.com/in/issam-khalil"
                                        style="display: block; color: whitesmoke;"><i
                                             class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"
                                             style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
@@ -1110,13 +1305,13 @@
                 <div class="col-sm-12">
                     <div class="clearfix footer-inner">
                         <ul class="left social-icons">
-                            <li><a href="#" class="tooltips tooltipped facebook" data-position="top" data-delay="50"
+                            <li><a href="https://facebook.com/issam.khalil.777" class="tooltips tooltipped facebook" data-position="top" data-delay="50"
                                    data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#" class="tooltips tooltipped linkedin" data-position="top" data-delay="50"
+                            <li><a href="https://ma.linkedin.com/in/issam-khalil" class="tooltips tooltipped linkedin" data-position="top" data-delay="50"
                                    data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50"
+                            <li><a href="http://www.freecodecamp.com/issamkhalil" class="tooltips tooltipped twitter" data-position="top" data-delay="50"
                                    data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#" class="tooltips tooltipped google-plus" data-position="top" data-delay="50"
@@ -1154,8 +1349,6 @@
 <script src="assets/js/waypoints.js"></script>
 <script src="assets/js/jquery.counterup.min.js"></script>
 <script src="assets/js/jquery.nicescroll.min.js"></script>
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="assets/js/gmaps.js"></script>
 <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
 <script src="assets/libs/materialize/js/materialize.min.js"></script>
 <script src="assets/libs/jwplayer/jwplayer.js"></script>
@@ -1178,11 +1371,6 @@
         <p id="pf-modal-txt" class="m-content"></p>
     </div>
 
-    <div class="modal-footer">
-        <a href="http://tinyurl.com/jdymnat" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live
-            Demo</a>
-        <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
-    </div>
 </div>
 
 
