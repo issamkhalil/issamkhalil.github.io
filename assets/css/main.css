@@ -717,9 +717,9 @@ header.nav.hide-menu {
 /* 6. Skills Section Styles
  ----------------------------------- */
 
-#skill {
+/*#skill {
     background: url('../../images/home-bg.jpg') no-repeat scroll center center / cover;
-}
+}*/
 
 #skill .sec-overlay {
     background: rgba(255,255,255, .82);
